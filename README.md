@@ -21,8 +21,7 @@ This repository contains the official implementation of our IJCAI 2025 paper:
 > *Muhammad Sakib Khan Inan, Kewen Liao*
 > Accepted at **IJCAI 2025**
 
-We introduce **DeepFeatIoT**, which uniquely integrates: learnable local (multi-scale learnable convolutions) and global feature (bi-directional gated recurrent units) with non-learned randomized convolutional kernel features, and pretrained LLM features to enhance classification performance across various IoT sensor datasets, even in scenarios with limited labeled data.
-Our approach achieves **state-of-the-art performance** on heterogenous IoT Time Series Sensor data classification task.
+We introduce **DeepFeatIoT**, which uniquely integrates: learnable local (multi-scale learnable convolutions) and global feature (bi-directional gated recurrent units) with non-learned randomized convolutional kernel features, and pretrained LLM features to enhance classification performance across various IoT sensor datasets, even in scenarios with limited labeled data. Our approach achieves state-of-the-art performance on heterogenous IoT Time Series Sensor data classification task.
 
 ---
 
