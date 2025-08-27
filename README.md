@@ -1,6 +1,6 @@
 # 📄 DeepFeatIoT: Unifying Deep Learned, Randomized, and LLM Features for Enhanced IoT Time Series Sensor Data Classification in Smart Industries
 
-Official Implementation of *"DeepFeatIoT: Unifying Deep Learned, Randomized, and LLM Features for Enhanced IoT Time Series Sensor Data Classification in Smart Industries"* accepted at **IJCAI 2025** under the special track of AI4Tech: AI Enabling Critical Technologies as a full-length original research article after a double blind peer-review process. This year the acceptance rate of full-length research articles were less than 18%. IJCAI is CORE A* conference and a flagship international research conference in Artificial Intelligence.
+Official Implementation of *"DeepFeatIoT"* accepted at **IJCAI 2025** under the special track of AI4Tech: AI Enabling Critical Technologies as a full-length original research article after a double blind peer-review process. This year the acceptance rate of full-length research articles were less than 18%. IJCAI is a CORE A* conference and a flagship international research conference in Artificial Intelligence.
 
 [![Paper](https://img.shields.io/badge/DeepFeatIoT-PDF-green)](https://ijcai-preprints.s3.us-west-1.amazonaws.com/2025/8887.pdf)
 [![Arxiv](https://img.shields.io/badge/arXiv-2508.09468-b31b1b)](https://arxiv.org/abs/2508.09468)
@@ -14,13 +14,6 @@ Official Implementation of *"DeepFeatIoT: Unifying Deep Learned, Randomized, and
 ---
 
 ## 🚀 Overview
-
-This repository contains the official implementation of our IJCAI 2025 paper:
-
-> **DeepFeatIoT: Unifying Deep Learned, Randomized, and LLM Features for Enhanced IoT Time Series Sensor Data Classification in Smart Industries**
-> *Muhammad Sakib Khan Inan, Kewen Liao*
-> Accepted at **IJCAI 2025**
-
 We introduce **DeepFeatIoT**, which uniquely integrates: learnable local (multi-scale learnable convolutions) and global feature (bi-directional gated recurrent units) with non-learned randomized convolutional kernel features, and pretrained LLM features to enhance classification performance across various IoT sensor datasets, even in scenarios with limited labeled data. Our approach achieves state-of-the-art performance on heterogenous IoT Time Series Sensor data classification task.
 
 ---
