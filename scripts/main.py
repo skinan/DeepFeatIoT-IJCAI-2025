@@ -36,8 +36,7 @@ def train_model(model, train_data, test_data, config):
     model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
 
     print(model.summary(show_trainable=True))
-    # Connect Model to ClearML Task
-    # Task.connect(model)
+
 
     train_task_name = config["model_name"] + "_" + config["train_task_name"]
     dataset_name = config["dataset_name"]
