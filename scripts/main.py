@@ -197,9 +197,11 @@ if __name__ == "__main__":
             wvg_f1_score_list.append(wvg_f1_score)
             
         # Save scores in text file for future reference
-        file_name = (
-            "results/" + config["dataset_name"] + "/" + config["model_name"] + ".txt"
-        )
+        import os
+        file_name = os.path.join("results", config["dataset_name"], config["model_name"] + ".txt")
+        # Make sure the parent directory exists
+        os.makedirs(os.path.dirname(file_name), exist_ok=True)
+
 
         # Multiply each element by 100 and format to 2 decimal points
         accuracy_score_list = [round(val * 100, 2) for val in accuracy_score_list]
