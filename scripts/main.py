@@ -2,7 +2,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 
-from models.deepfeatiot import DeepFeatIoT
+from models.deepfeatiot import DeepFeatIoT, GPT2Model
 from models.deepheteroiot import DeepHeteroIoT
 
 from dataset_loading import load_data
@@ -58,7 +58,7 @@ def train_model(model, train_data, test_data, config):
         log_dir=f"logs/{dataset_name}/{train_task_name}_{date_time}"
     )
 
-    callbacks = [tensorboard_logger]
+    callbacks = [tensorboard_logger, checkpointer]
     # with tf.device("/gpu:2"):
     history = model.fit(
         train_data[0],
@@ -173,7 +173,7 @@ def run(config):
 
 if __name__ == "__main__":
     config = {
-        "dataset_name": "TS-MACE",  # Options: TS-NEW / TS-MACE / SensEUR / Urban / Swiss / IOWA / BAS / SensEUR_NEW
+        "dataset_name": "Swiss",  # Options: Urban / Swiss / Iowa / SBAS
         "learning_rate": 0.001,
         "train_task_name": "supervised",
         "model_name": "DeepFeatIoT",
