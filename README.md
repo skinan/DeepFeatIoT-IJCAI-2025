@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 ## 🌟 Proposed Method: DeepFeatIoT
 
-![Proposed Method Diagram](paper/figures/propsed_method_diagram.png)
+![Proposed Method Diagram](paper/figures/proposed_method_diagram.png)
 
 ---
 
