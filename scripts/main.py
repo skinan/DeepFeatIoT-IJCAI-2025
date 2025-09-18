@@ -198,7 +198,7 @@ if __name__ == "__main__":
             
         # Save scores in text file for future reference
         import os
-        file_name = os.path.join("results", config["dataset_name"], config["model_name"] + ".txt")
+        file_name = os.path.join("../results", config["dataset_name"], config["model_name"] + ".txt")
         # Make sure the parent directory exists
         os.makedirs(os.path.dirname(file_name), exist_ok=True)
 

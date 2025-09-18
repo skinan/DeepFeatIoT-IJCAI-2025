@@ -14,6 +14,7 @@ Official Implementation of *"DeepFeatIoT"* accepted at **IJCAI 2025** under the 
 ---
 
 ## 🚀 Overview
+
 We introduce **DeepFeatIoT**, which uniquely integrates: learnable local (multi-scale learnable convolutions) and global feature (bi-directional gated recurrent units) with non-learned randomized convolutional kernel features, and pretrained LLM features to enhance classification performance across various IoT sensor datasets, even in scenarios with limited labeled data. Our approach achieves state-of-the-art performance on heterogenous IoT Time Series Sensor data classification task.
 
 ---
@@ -63,17 +64,14 @@ pip install -r requirements.txt
 We evaluate our method on the following datasets (see paper/appendix.pdf for more details):
 
 * Swiss Experiment (abbvr. as Swiss) – This dataset [Montori et al., 2023] contains  highly noisy time series sensor readings from sensors located within the Swiss Alps mountain range [Calbimonte et al., 2012]. The sensors in this dataset come from heterogeneous environments, exhibiting variability in timestamp ranges, frequency, and sampling ratios, along with significant phase shifts in the data. This is one of the few highly heterogeneous IoT sensor time series datasets available in the domain. It serves as a practical example of the heterogeneity present in ubiquitous real-world
-sensor data, which is used for various sensor applications in different industries (e.g. traffic, media etc.) [Calbimonte et al., 2012]. The class-labels available in this dataset are: CO2(Carbon Dioxide), Humidity, Lysimeter, Moisture, Pressure, Radiation, Snow Height, Temperature, Voltage, Wind Speed, and Wind Direction.
-
+  sensor data, which is used for various sensor applications in different industries (e.g. traffic, media etc.) [Calbimonte et al., 2012]. The class-labels available in this dataset are: CO2(Carbon Dioxide), Humidity, Lysimeter, Moisture, Pressure, Radiation, Snow Height, Temperature, Voltage, Wind Speed, and Wind Direction.
 * Urban Observatory (abbvr. as Urban) -
   This dataset [Montori et al., 2023] contains one day of data
   from a city-wide urban sensor network, initiated by the University of Newcastle, United Kingdom. The dataset includes real-time sensor time series from multiple domains, such as smart buildings, traffic control, weather stations, remote sensing, and more. It consists of a set of highly correlated data. The sensor types availables on this dataset are: NO2 (Nitrogen Dioxide), Wind Direction, Humidity, Wind Speed, Temperature, Pressure, Wind Gust, Rainfall, Soil Moisture, Average Speed, Congestion, Traffic Flow, Journey time, Sound, CO (Carbon Monoxide) and NO (Nitrogen Monoxide).
-
 * Iowa ASOS (abbrv. as Iowa)- This dataset [Inan et al., 2023] comprises time series   sensor readings with an hourly frequency and a total of one week
   of data for each sample, spanning a six-month period overall. These sensors are deployed in airports and can produce observations every minute or every hour, depending on the requirements of the airport authority, to support aviation opera-
   tions and facilitate smart airport or aviation management using Automated Surface Observing Systems (ASOS). The sensor types or class-label available in this dataset are: Air Temperature, Dew Point Temperature, Relative Humidity, Wind
   Direction, Pressure Altimeter, Visibility, Wind Gust, and Apparent Temperature (Heat Index).
-
 * Smart Building Automation System (abbrv. as SBAS) -
   This dataset [Hong et al., 2017] contains time series sensor
   data (resampled at a frequency of 1 hour) derived from sensors installed in 51 rooms of the Sutardja Dai Hall (SDH) at UC Berkeley. These sensor data can support investigations of the physical properties of rooms within the building. This
@@ -100,5 +98,20 @@ If you use this code or any resources of the paper (including datasets), please 
   booktitle={Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence, {IJCAI-25}},
   publisher = {International Joint Conferences on Artificial Intelligence Organization},
   year={2025}
+}
+```
+
+## ䷉ Extra
+
+This repository also contains the **[DeepHeteroIoT](https://link.springer.com/chapter/10.1007/978-3-031-63989-0_6)** model, published in MobiQuituous 2023. The DeepHeteroIot model code could found in the `"scripts/models"` directory. Please, kindly cite the DeepHeteroIoT paper, if you use Iowa dataset or DeepHeteroIoT model:
+
+```bibtex
+@inproceedings{inan2023deepheteroiot,
+  title={DeepHeteroIoT: Deep Local and Global Learning over Heterogeneous IoT Sensor Data},
+  author={Inan, Muhammad Sakib Khan and Liao, Kewen and Shen, Haifeng and Jayaraman, Prem Prakash and Georgakopoulos, Dimitrios and Tang, Ming Jian},
+  booktitle={International Conference on Mobile and Ubiquitous Systems: Computing, Networking, and Services},
+  pages={119--135},
+  year={2023},
+  organization={Springer Nature Switzerland}
 }
 ```
