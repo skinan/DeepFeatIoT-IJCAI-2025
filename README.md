@@ -2,8 +2,8 @@
 
 Official Implementation of *"DeepFeatIoT"* accepted at **IJCAI 2025** under the special track of AI4Tech: AI Enabling Critical Technologies as a full-length original research article after a double blind peer-review process. This year the acceptance rate of full-length research articles were less than 18%. IJCAI is a CORE A* conference and a flagship international research conference in Artificial Intelligence.
 
-[![Paper](https://img.shields.io/badge/DeepFeatIoT-PDF-green)](https://ijcai-preprints.s3.us-west-1.amazonaws.com/2025/8887.pdf)
-[![Arxiv](https://img.shields.io/badge/arXiv-2508.09468-b31b1b)](https://arxiv.org/abs/2508.09468)
+[![Paper](https://img.shields.io/badge/DeepFeatIoT-PDF-green)
+](https://www.ijcai.org/proceedings/2025/1025)
 
 ---
 
@@ -92,12 +92,19 @@ Main results from the paper:
 If you use this code or any resources of the paper (including datasets), please kindly cite our paper:
 
 ```bibtex
-@inproceedings{ijcai2025p8887,
-  title={DeepFeatIoT: Unifying Deep Learned, Randomized, and LLM Features for Enhanced IoT Time Series Sensor Data Classification in Smart Industries},
-  author={Inan, Muhammad Sakib Khan and Liao, Kewen},
-  booktitle={Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence, {IJCAI-25}},
+@inproceedings{ijcai2025p1025,
+  title     = {DeepFeatIoT: Unifying Deep Learned, Randomized, and LLM Features for Enhanced IoT Time Series Sensor Data Classification in Smart Industries},
+  author    = {Inan, Muhammad Sakib Khan and Liao, Kewen},
+  booktitle = {Proceedings of the Thirty-Fourth International Joint Conference on
+               Artificial Intelligence, {IJCAI-25}},
   publisher = {International Joint Conferences on Artificial Intelligence Organization},
-  year={2025}
+  editor    = {James Kwok},
+  pages     = {9223--9231},
+  year      = {2025},
+  month     = {8},
+  note      = {AI4Tech: AI Enabling Technologies},
+  doi       = {10.24963/ijcai.2025/1025},
+  url       = {https://doi.org/10.24963/ijcai.2025/1025},
 }
 ```
 
