@@ -3,7 +3,7 @@
 Official Implementation of *"DeepFeatIoT"* accepted at **IJCAI 2025** under the special track of AI4Tech: AI Enabling Critical Technologies as a full-length original research article after a double blind peer-review process. This year the acceptance rate of full-length research articles were less than 18%. IJCAI is a CORE A* conference and a flagship international research conference in Artificial Intelligence.
 
 [![Paper](https://img.shields.io/badge/DeepFeatIoT-PDF-green)
-](https://www.ijcai.org/proceedings/2025/1025)
+](https://www.ijcai.org/proceedings/2025/1025.pdf)
 
 ---
 
