@@ -59,27 +59,6 @@ pip install -r requirements.txt
 
 ---
 
-## 📊 Datasets
-
-We evaluate our method on the following datasets (see paper/appendix.pdf for more details):
-
-* Swiss Experiment (abbvr. as Swiss) – This dataset [Montori et al., 2023] contains  highly noisy time series sensor readings from sensors located within the Swiss Alps mountain range [Calbimonte et al., 2012]. The sensors in this dataset come from heterogeneous environments, exhibiting variability in timestamp ranges, frequency, and sampling ratios, along with significant phase shifts in the data. This is one of the few highly heterogeneous IoT sensor time series datasets available in the domain. It serves as a practical example of the heterogeneity present in ubiquitous real-world
-  sensor data, which is used for various sensor applications in different industries (e.g. traffic, media etc.) [Calbimonte et al., 2012]. The class-labels available in this dataset are: CO2(Carbon Dioxide), Humidity, Lysimeter, Moisture, Pressure, Radiation, Snow Height, Temperature, Voltage, Wind Speed, and Wind Direction.
-* Urban Observatory (abbvr. as Urban) -
-  This dataset [Montori et al., 2023] contains one day of data
-  from a city-wide urban sensor network, initiated by the University of Newcastle, United Kingdom. The dataset includes real-time sensor time series from multiple domains, such as smart buildings, traffic control, weather stations, remote sensing, and more. It consists of a set of highly correlated data. The sensor types availables on this dataset are: NO2 (Nitrogen Dioxide), Wind Direction, Humidity, Wind Speed, Temperature, Pressure, Wind Gust, Rainfall, Soil Moisture, Average Speed, Congestion, Traffic Flow, Journey time, Sound, CO (Carbon Monoxide) and NO (Nitrogen Monoxide).
-* Iowa ASOS (abbrv. as Iowa)- This dataset [Inan et al., 2023] comprises time series   sensor readings with an hourly frequency and a total of one week
-  of data for each sample, spanning a six-month period overall. These sensors are deployed in airports and can produce observations every minute or every hour, depending on the requirements of the airport authority, to support aviation opera-
-  tions and facilitate smart airport or aviation management using Automated Surface Observing Systems (ASOS). The sensor types or class-label available in this dataset are: Air Temperature, Dew Point Temperature, Relative Humidity, Wind
-  Direction, Pressure Altimeter, Visibility, Wind Gust, and Apparent Temperature (Heat Index).
-* Smart Building Automation System (abbrv. as SBAS) -
-  This dataset [Hong et al., 2017] contains time series sensor
-  data (resampled at a frequency of 1 hour) derived from sensors installed in 51 rooms of the Sutardja Dai Hall (SDH) at UC Berkeley. These sensor data can support investigations of the physical properties of rooms within the building. This
-  dataset contain 5 unique type of sensors including CO2 concentration, room air humidity, room temperature, luminosity,
-  and PIR motion sensor.
-
----
-
 ## 📈 Experimental Results
 
 Main results from the paper:
